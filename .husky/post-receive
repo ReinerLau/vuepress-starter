@@ -3,6 +3,6 @@
 
 now_branch_name=git symbolic-ref --short -q HEAD
 
-if($now_branch_name == "dev"){
-    sh ./deploy.sh
-}
+# if($now_branch_name == "dev"){
+sh ./deploy.sh
+# }
