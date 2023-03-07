@@ -1,8 +1,8 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-now_branch_name=git symbolic-ref --short -q HEAD
+# now_branch_name=git symbolic-ref --short -q HEAD
 
 # if($now_branch_name == "dev"){
-sh ./deploy.sh
+# sh ./deploy.sh
 # }
