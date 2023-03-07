@@ -1,6 +1,12 @@
 module.exports = {
   title: "TypeScript4 文档",
   description: "TypeScript4 最新官方文档翻译",
+  locales: {
+    "/": {
+      lang: "zh-CN",
+    },
+  },
+  theme: "reco",
   themeConfig: {
     nav: [
       { text: "首页", link: "/" },
@@ -37,5 +43,6 @@ module.exports = {
         ],
       },
     ],
+    subSidebar: "auto",
   },
 };
