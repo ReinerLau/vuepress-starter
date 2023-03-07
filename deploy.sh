@@ -19,6 +19,7 @@ git commit -m 'deploy'
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:ReinerLau/vuepress-starter.git master:gh-pages
 # git push -f git@gitee.com:ReinerLau/vuepress-starter.git master:gh-pages
+git push -f git@43.139.99.48:/home/www/website/ts.git master
 
 
 
